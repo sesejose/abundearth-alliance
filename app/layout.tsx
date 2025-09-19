@@ -26,7 +26,7 @@ const noto_serif = Noto_Serif({
 });
 
 export const metadata = {
-  title: "Abound Alliance",
+  title: "AbundEarth Alliance",
   description: "Regenerating Land. Rebuilding Value. Redefining Trade.",
 };
 

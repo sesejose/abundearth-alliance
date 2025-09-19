@@ -12,8 +12,8 @@ export default function About() {
         <div className="max-w-full mx-auto px-4 flex flex-wrap gap-x-24 md:px-40">
           {/* Section header */}
           <div className="max-w-full mx-auto md:px-80 text-center pb-12 md:pb-16 ">
-            <h3 className="text-amber-600 text-base font-notosans">About Abound Alliance</h3>
-            <h2 className="text-gray-100 text-3xl font-light sm:text-3xl pt-5 pb-10">About Abound Alliance</h2>
+            <h3 className="text-amber-600 text-base font-notosans">About AbundEarth Alliance</h3>
+            <h2 className="text-gray-100 text-3xl font-light sm:text-3xl pt-5 pb-10">About AbundEarth Alliance</h2>
             <p className="text-gray-300 text-lg font-normal leading-normal font-notosans">
               Our work is where circular design, sustainability standards, and real-world execution meet. We don’t just consult — we co-create solutions that are viable in the field, measurable on paper, and scalable across borders.
             </p>
