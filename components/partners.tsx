@@ -97,10 +97,10 @@ export default function Partners() {
         <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7">
           <ul className="grid gap-8 sm:grid-cols-1">
             {features.map((item, idx) => (
-              <li key={idx} className="flex gap-x-4">
+              <li key={idx} className="flex gap-x-4 items-center">
                 <div className="flex-none w-12 h-12 bg-stone-800 text-amber-600 rounded-lg flex items-center justify-center">{item.icon}</div>
                 <div>
-                  <div className="text-base text-gray-100 font-normal font-notosans items-center justify-start pt-3">{item.title}</div>
+                  <div className="text-base text-gray-100 font-normal font-notosans items-center justify-start">{item.title}</div>
                   {/* <p className="mt-3">{item.desc}</p> */}
                 </div>
               </li>

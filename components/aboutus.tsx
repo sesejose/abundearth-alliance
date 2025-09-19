@@ -7,7 +7,7 @@ import TestimonialImage03 from "@/public/images/testimonial-03.jpg";
 export default function AboutUs() {
   return (
     <>
-      <section className="pt-12 md:pt-24 bg-amber-50 text-center">
+      <section className="pt-12 md:pt-24 bg-amber-50 sm:text-left md:text-center">
         <div className="max-w-full mx-auto px-4 flex flex-wrap gap-x-24 md:px-8">
           {/* Section header */}
           <div className="flex-1 min-w-0 px-4 md:px-80">

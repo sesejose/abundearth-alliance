@@ -62,22 +62,22 @@ export default function Contact() {
           <form className="space-y-5">
             <div>
               <label className="text-sm text-gray-300 pb-2 hidden">Full name</label>
-              <input placeholder="Your full name" type="text" required className="placeholder-gray-500 w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-amber-600 shadow-sm border-gray-100" />
+              <input placeholder="Your full name" type="text" required className="placeholder-gray-300 w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border border-stone-600 focus:border-amber-600 shadow-sm border-gray-100" />
             </div>
             <div>
               <label className="text-sm text-gray-300 pb-2 hidden">Email</label>
-              <input placeholder="E-mail address" type="email" required className="placeholder-gray-500 w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-amber-600 shadow-sm border-gray-100" />
+              <input placeholder="E-mail address" type="email" required className="placeholder-gray-300 w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border border-stone-600 focus:border-amber-600 shadow-sm border-gray-100" />
             </div>
             <div>
               <label className="text-sm text-gray-300 pb-2 hidden">Company</label>
-              <input placeholder="Company name" type="text" required className="placeholder-gray-500 w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-amber-600 shadow-sm border-gray-100" />
+              <input placeholder="Company name" type="text" required className="placeholder-gray-300 w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border border-stone-600 focus:border-amber-600 shadow-sm border-gray-100" />
             </div>
             <div>
               <label className="text-sm text-gray-300 pb-2 hidden">Message</label>
               <textarea
                 placeholder="Your message"
                 required
-                className="placeholder-gray-500 w-full mt-2 h-36 px-3 py-2 resize-none appearance-none text-white bg-transparent outline-none border focus:border-amber-600 shadow-sm border-gray-100"
+                className="placeholder-gray-300 w-full mt-2 h-36 px-3 py-2 resize-none appearance-none text-white bg-transparent outline-none border border-stone-600 focus:border-amber-600 shadow-sm border-gray-100"
               ></textarea>
             </div>
 

@@ -49,9 +49,9 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-white px-4 py-10">
+        <ul className="bg-amber-50 px-4 py-10">
           <li>
-            <Link href="#what" className="font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+            <Link href="#what" className="font-notosans font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
               What we do
             </Link>
           </li>
@@ -61,17 +61,17 @@ export default function MobileMenu() {
                 </Link>
               </li> */}
           <li>
-            <Link href="#partners" className="font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+            <Link href="#partners" className="font-notosans font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
               Our Partners
             </Link>
           </li>
           <li>
-            <Link href="#about" className="font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+            <Link href="#about" className="font-notosans font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
               About Us
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="btn-sm text-white bg-amber-600 hover:bg-amber-800 ml-3">
+            <Link href="#contact" className="font-notosans btn-sm text-white bg-amber-600 hover:bg-amber-800 ml-3 mt-4">
               Contact Us
             </Link>
           </li>

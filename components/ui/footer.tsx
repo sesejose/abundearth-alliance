@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="flex items-center" aria-label="Cruip">
-                  <svg className="w-12 h-12 fill-current text-amber-600" viewBox="0 0 32 32">
+                  <svg className="w-8 h-8 fill-current text-amber-600 mr-4" viewBox="0 0 24 24">
                     {" "}
                     <path
                       fill="currentColor"
