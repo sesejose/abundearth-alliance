@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section id="#home" className="relative">
-      <div className="max-w-full mx-auto px-4 sm:px-6 relative">
-        {/* Illustration behind hero content */}
-        {/* <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
+      {/* <div className="max-w-full mx-auto px-4 sm:px-6 relative">
+        Illustration behind hero content
+        <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
@@ -22,8 +22,8 @@ export default function Hero() {
               fill="url(#illustration-02)"
             />
           </svg>
-        </div> */}
-      </div>
+        </div>
+      </div> */}
 
       {/* Section header width video */}
       <div className="relative pt-32 pb-10 md:pt-40 md:pb-16 bg-amber-50">
