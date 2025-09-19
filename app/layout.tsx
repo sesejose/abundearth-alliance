@@ -4,6 +4,7 @@ import Banner from "@/components/banner";
 import { Architects_Daughter } from "next/font/google";
 import { Noto_Sans } from "next/font/google";
 import { Noto_Serif } from "next/font/google";
+import type { Metadata } from "next";
 
 const architects_daughter = Architects_Daughter({
   subsets: ["latin"],
@@ -24,8 +25,7 @@ const noto_serif = Noto_Serif({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
-
-export const metadata = {
+export const metadata: Metadata = {
   title: "AbundEarth Alliance",
   description: "Regenerating Land. Rebuilding Value. Redefining Trade.",
 };
