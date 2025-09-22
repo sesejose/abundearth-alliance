@@ -58,7 +58,7 @@ export default function WhatWeDo() {
             </p>
           </div>
 
-          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 md:col-start-7">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 lg:col-start-7">
             {/* Image */}
             <Image src="/images/bghero.jpg" width={500} height={500} alt="Picture of the author" className="min-w-full" />
           </div>
@@ -92,7 +92,7 @@ export default function WhatWeDo() {
             </div>
           </div>
           {/* Content */}
-          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 md:col-start-7">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 lg:col-start-7">
             {tabItems.map((item, idx) => (
               <Tabs.Content key={idx} className="py-6" value={item.title}>
                 <p className="text-base leading-normal font-notosans text-gray-300 font-normal ">This is {item.desc} Tab.</p>
