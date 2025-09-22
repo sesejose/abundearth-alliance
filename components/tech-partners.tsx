@@ -1,13 +1,13 @@
 export default function TechPartners() {
   return (
     <section className="py-12 md:py-24 bg-amber-50 relative">
-      <div className="relative px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-20">
-        <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-1">
+      <div className="relative px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-12 grid-rows-1 gap-20">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 lg:col-start-1">
           <h3 className="text-amber-600 text-base font-notosans">Our Technology Partners</h3>
           <h2 className="text-amber-800 text-3xl font-normal sm:text-3xl pt-5 pb-10">Our work is powered by strategic Nordic technologies</h2>
           <p className="text-amber-900 text-base font-normal leading-normal font-notosans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum.</p>
         </div>
-        <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 md:col-start-7">
           <ul className="grid grid-cols-2 gap-2 items-center justify-center [&>*]:bg-gray-700 [&>*]:w-full [&>*]:h-20 [&>*]:flex sm:[&>*]:px-14">
             {/* LOGO 1 */}
             <li>

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="py-12 md:py-16 bg-gray-900 border-t border-gray-800">
-        <div className="max-w-full mx-auto px-4 sm:px-6 md:px-40">
+        <div className="max-w-full mx-auto px-4 sm:px-6 md:px-4 lg:px-40">
           {/* Top area: Blocks */}
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
             {/* 1st block */}

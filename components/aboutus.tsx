@@ -10,7 +10,7 @@ export default function AboutUs() {
       <section className="pt-12 md:pt-24 bg-amber-50 sm:text-left md:text-center">
         <div className="max-w-full mx-auto px-4 flex flex-wrap gap-x-24 md:px-8">
           {/* Section header */}
-          <div className="flex-1 min-w-0 px-4 md:px-80">
+          <div className="flex-1 min-w-0 px-4 md:px-4 lg:px-80">
             <h3 className="text-amber-600 text-base font-notosans">Who we are</h3>
             <h2 className="text-amber-800 text-3xl font-normal sm:text-3xl pt-5 pb-10">Who we are</h2>
             <p className="text-amber-800 text-base font-normal leading-normal font-notosans">
@@ -23,9 +23,9 @@ export default function AboutUs() {
 
       <section className="pb-12 md:pb-24 bg-amber-50">
         {/* Testimonials */}
-        <div className="relative pt-20  px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-20 flex-wrap ">
+        <div className="relative pt-20  px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-12 grid-rows-1 gap-20 flex-wrap ">
           {/* 1st testimonial */}
-          <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-1" data-aos="fade-up">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 lg:col-start-1" data-aos="fade-up">
             <div>
               <div className="relative inline-flex flex-col mb-4">
                 <Image className="rounded-full" src={TestimonialImage01} width={110} height={110} alt="Testimonial 01" />
@@ -61,7 +61,7 @@ export default function AboutUs() {
           </div>
 
           {/* 2nd testimonial */}
-          <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7" data-aos="fade-up" data-aos-delay="200">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 lg:col-start-7" data-aos="fade-up" data-aos-delay="200">
             <div>
               <div className="relative inline-flex flex-col mb-4">
                 <Image className="rounded-full" src={TestimonialImage02} width={110} height={110} alt="Testimonial 02" />

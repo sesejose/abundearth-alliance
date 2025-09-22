@@ -88,13 +88,13 @@ export default function Partners() {
 
   return (
     <section id="partners" className="py-12 md:py-24 bg-gray-900">
-      <div className="relative px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-12 md:gap-20">
-        <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-1">
+      <div className="relative px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-12 grid-rows-1 gap-12 md:gap-20">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 lg:col-start-1">
           <h3 className="text-amber-600 text-base font-notosans">Who We Work With</h3>
           <h2 className="text-gray-100 text-3xl font-light sm:text-3xl pt-5 pb-10">We build alliances that cross borders and sectors.</h2>
           <p className="text-gray-300 text-base font-normal leading-normal font-notosans">These are some of the industries and sectors we collaborate with:</p>
         </div>
-        <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 lg:col-start-7">
           <ul className="grid gap-8 sm:grid-cols-1">
             {features.map((item, idx) => (
               <li key={idx} className="flex gap-x-4 items-center">

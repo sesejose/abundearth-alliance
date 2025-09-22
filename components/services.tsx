@@ -48,8 +48,8 @@ export default function WhatWeDo() {
   return (
     <>
       <section id="what" className="py-12 md:py-24 bg-stone-800">
-        <div className="relative px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-20">
-          <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-1">
+        <div className="relative px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-12 grid-rows-1 gap-20">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 lg:col-start-1">
             <div className="text-amber-600 text-base font-notosans">What we do</div>
             <h2 className="text-gray-100 text-3xl font-light sm:text-3xl pt-5 pb-10">We turn agricultural residues into opportunities — for business, for people, and for the planet.</h2>
             <p className="text-gray-300 text-base font-normal leading-normal font-notosans">
@@ -58,14 +58,14 @@ export default function WhatWeDo() {
             </p>
           </div>
 
-          <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 md:col-start-7">
             {/* Image */}
             <Image src="/images/bghero.jpg" width={500} height={500} alt="Picture of the author" className="min-w-full" />
           </div>
         </div>
 
-        <Tabs.Root className="relative pt-12 md:pt-24 px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-4 md:gap-20" value={selectedTab} orientation="vertical" onValueChange={(val) => setSelectedTab(val)}>
-          <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-1">
+        <Tabs.Root className="relative pt-12 md:pt-24 px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-12 grid-rows-1 gap-4 md:gap-20" value={selectedTab} orientation="vertical" onValueChange={(val) => setSelectedTab(val)}>
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 lg:col-start-1">
             <Tabs.List className="hidden flex-col items-start gap-y-5 py-1 text-base sm:flex" aria-label="Manage your account">
               {tabItems.map((item, idx) => (
                 <Tabs.Trigger
@@ -92,7 +92,7 @@ export default function WhatWeDo() {
             </div>
           </div>
           {/* Content */}
-          <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7">
+          <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 md:col-start-7">
             {tabItems.map((item, idx) => (
               <Tabs.Content key={idx} className="py-6" value={item.title}>
                 <p className="text-base leading-normal font-notosans text-gray-300 font-normal ">This is {item.desc} Tab.</p>

@@ -35,13 +35,13 @@ export default function Hero() {
 
       <div className="relative pt-12 pb-12 md:pt-80 md:pb-80 bg-cover bg-center bg-no-repeat bg-[url(/images/bghero.jpg)]"></div>
 
-      <div className="relative pt-12 pb-12 px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-4 md:gap-20 bg-amber-50">
+      <div className="relative pt-12 pb-12 px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-12 grid-rows-1 gap-4 md:gap-20 bg-amber-50">
         <div className="sm:col-span-1 md:col-span-6">
           <h2 className="text-3xl mb-4 font-notoserif font-normal text-amber-800" data-aos="fade-up">
             Headline here
           </h2>
         </div>
-        <div className="flex flex-col sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7 gap-8 md:gap-8">
+        <div className="flex flex-col sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 md:col-start-7 gap-8 md:gap-8">
           <p className="flex text-base font-notosans text-amber-900" data-aos="fade-up" data-aos-delay="200">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>

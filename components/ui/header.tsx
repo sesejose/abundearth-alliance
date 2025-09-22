@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="absolute w-full z-30 ">
       <div className="max-w-xxl mx-auto px-4 sm:px-6">
-        <div className="sm:px-1 md:px-40 flex items-center justify-between h-20">
+        <div className="sm:px-1 md:px-4 lg:px-40 flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
@@ -24,7 +24,7 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center font-notosans">
+            <ul className="flex grow justify-end flex-wrap items-center font-notosans md:text-sm lg:text-base">
               <li>
                 <Link href="#what" className="font-medium text-amber-800 hover:text-amber-600 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   What we do

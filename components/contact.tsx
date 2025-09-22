@@ -40,8 +40,8 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-12 md:py-24 bg-stone-800">
-      <div className="relative px-4 md:px-40 grid sm:grid-cols-1 md:grid-cols-12 grid-rows-1 gap-20 flex-wrap">
-        <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-1">
+      <div className="relative px-4 md:px-4 lg:px-40 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-12 grid-rows-1 gap-20 flex-wrap">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-1 lg:col-start-1 md:max-w-md md:min-w-md" data-aos="fade-up" data-aos-delay="200">
           <h3 className="text-amber-600 text-base font-notosans">Contact</h3>
           <p className="text-gray-100 text-3xl font-light sm:text-3xl pt-5 pb-10">Let us know how we can help</p>
           <p className="text-gray-300 text-base font-normal leading-normal font-notosans">
@@ -58,7 +58,7 @@ export default function Contact() {
             </ul>
           </div>
         </div>
-        <div className="sm:col-span-1 md:col-span-6 sm:col-start-1 md:col-start-7 font-notosans">
+        <div className="sm:col-span-1 md:col-span-1 lg:col-span-6 sm:col-start-1 md:col-start-2 lg:col-start-7 max-w-md md:min-w-md font-notosans">
           <form className="space-y-5">
             <div>
               <label className="text-sm text-gray-300 pb-2 hidden">Full name</label>
