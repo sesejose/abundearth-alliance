@@ -3,7 +3,7 @@ import MobileMenu from "./mobile-menu";
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 ">
+    <header className=" w-full z-30 fixed top-0 bg-amber-50 backdrop-blur-sm">
       <div className="max-w-xxl mx-auto px-4 sm:px-6">
         <div className="sm:px-1 md:px-4 lg:px-40 flex items-center justify-between h-20">
           {/* Site branding */}
